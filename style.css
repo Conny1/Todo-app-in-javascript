@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,200&family=Raleway:wght@300&display=swap');
+
+*{
+    
+   font-family: 'Raleway', sans-serif;
+   /* outline: red 1px solid; */
+   
+}
+body{
+    height: 100vh;
+    background: url(todo.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    /* background-color: gray; */
+    height: auto;
+    padding: 10px;
+    width: 700px;
+    align-self: center;
+    
+    
+}
+.input-container{
+    display: flex;
+    /* justify-content: space-between; */
+
+    
+}
+#todo{
+    flex: 4;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+
+}
+#btn-add{
+    color: white;
+    background-color:#1a73e8 ;
+    border-radius: 5px;
+    
+}
+/* to do  styling */
+.output-container{
+    display: flex;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px;
+
+}
+.list{
+    flex: 4;
+    margin-right: 10px;
+    padding: 10px;
+   
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.done{
+    color: white;
+    background-color:#1a7 ;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.delet{
+    color: white;
+    background-color:#ff0e0e ;
+    border-radius: 5px
+}
